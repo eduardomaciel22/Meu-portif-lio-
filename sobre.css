@@ -1,0 +1,109 @@
+/*etilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.interface{
+    padding: 40px;
+    max-width: 1280px;
+
+}
+.flex{
+    display: flex;
+}
+.meu-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color:rgb(88, 88, 131);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/*estilo do cabecalho*/
+header> .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: rgb(117, 117, 117);
+text-decoration: none;
+display: inline-block;
+transition: .1.5s;
+}
+header a:hover{
+    color: rgb(88, 88, 131);
+    transform: scale(1.05);
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+ 
+
+
+ .meu-contato button:hover{
+    box-shadow: 0px 0px 8px blue; 
+    transform: scale(1.05);
+
+
+}
+
+.inicio{
+    padding: 0 40px;
+}
+.introdução{
+    padding: 0 40px;
+    
+}
+/*ESTILO SOBRE*/
+section.sobre{
+    padding: 10px 4%;
+    box-shadow: 0 0 40px 15px rgb(88, 88, 131);
+}
+section.sobre .flex{
+    align-items: center;
+}
+.sobre .txt-sobre{
+    color: white;
+
+}
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.sobre .txt-sobre h2 span{
+    color: rgb(88, 88, 131);
+    display: block;
+}
+    .sobre .txt-sobre p{
+        margin: 30px 0;
+        text-align: justify;
+    }
+    .sobre .txt-sobre .eu-social button{
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        border: none;
+        background-color:rgb(88, 88, 131);
+        font-size: 20px;
+        cursor: pointer;
+        margin: o 10px;
+        transition: .2s;
+    }
+    .eu-social button:hover{
+        box-shadow:0px 0px 8px rgb(88, 88, 131);
+        transform: scale(1.05);
+    }

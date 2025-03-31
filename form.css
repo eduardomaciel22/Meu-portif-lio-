@@ -1,0 +1,157 @@
+/*etilo geral*/
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background: linear-gradient(-120deg, rgb(1, 18, 73),#000000);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.interface{
+    padding: 40px;
+    max-width: 1280px;
+    
+
+}
+.flex{
+    display: flex;
+}
+.meu-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color:rgb(88, 88, 131);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/*estilo do cabecalho*/
+header> .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header a{
+    color: rgb(117, 117, 117);
+text-decoration: none;
+display: inline-block;
+transition: .1.5s;
+}
+header a:hover{
+    color: rgb(88, 88, 131);
+    transform: scale(1.05);
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+ 
+
+
+ .meu-contato button:hover{
+    box-shadow: 0px 0px 8px blue; 
+    transform: scale(1.05);
+
+
+}
+
+.inicio{
+    padding: 0 40px;
+}
+.introdução{
+    padding: 0 40px;
+}
+section.portifolio .interface h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+section.portifolio .interface h1 span{
+    color: rgb(88, 88, 131);
+}
+/*formulario*/
+body,
+ textarea{
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.form-box{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    width: 700px;
+    
+}.form-box titulo{
+    padding: 24px 32px;
+    font-size: 24px;
+    border-bottom: thin solid white;
+    
+}
+.form-box form{
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 32px;
+}
+.form-box input,
+.form-box textarea{
+    width: calc(50% - 8px);
+    height: 48px;
+    border-radius: 8px;
+    border: thin solid #999;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.form-box input:first-child{
+    margin-right: 16px;
+}
+    .form-box input[nome=Assunto]{
+        width: 100%;
+    }
+    .form-box textarea{
+        width: 100%;
+        height: 180px;
+        padding: 16px;
+    }
+    .form-box button{
+        display: block;
+        border: none;
+        outline: none;
+        width: 180px;
+        height: 48px;
+        border-radius: 8px;
+        background-color:rgb(88, 88, 131) ;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+        .form-box button:hover{
+            background-color: blue;
+            transition: .2.2;
+            transform: scale(1.1);
+        }
+        .titulo{
+            text-align: center;
+            color:rgb(88, 88, 131) ;
+            font-size: 25px;
+            margin: 15px;
+        }
